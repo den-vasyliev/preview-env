@@ -1,5 +1,5 @@
-
 #!/bin/bash
+
 # Install Homebrew (OPTIONAL)
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
@@ -11,7 +11,7 @@
 # Install OpenTofu
 curl -fsSL https://get.opentofu.org/install-opentofu.sh | sh -s -- --install-method standalone 
 
-# Instrall K9S to manage the cluster
+# Install K9S to manage the cluster
 curl -sS https://webi.sh/k9s | sh
 curl -s https://fluxcd.io/install.sh | sh
 . <(flux completion zsh)
